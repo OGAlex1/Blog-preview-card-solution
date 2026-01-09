@@ -1,63 +1,80 @@
 # Frontend Mentor - Blog preview card solution
 
-A responsive  Blog preview card  built with HTML and SCSS. The project focus on improvment of HTML and CSS, making a smonth and responsive page. 
+A responsive Blog Preview Card built with HTML and SCSS.  
+This project focuses on improving HTML and CSS skills by building a smooth and responsive page.
 
-This solution is inspired by the
-[ Blog preview card ](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) Frontend Mentor challannge help you improve coding skills by building realistic projects 
+This solution is inspired by the Blog Preview Card challenge on Frontend Mentor, which helps you improve your coding skills by building realistic projects.
 
-#🔗 Table of contents
+---
 
-- Live Overview
-----------------
-  - Screenshot
-  - Links 
-- Process
-  - Buit with
-  - What i learned
-- Author
-- Acknowledgements 
+## 🔗 Table of contents
 
+- [Live Overview](#live-overview)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Process](#process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgements](#acknowledgements)
 
-#🔗 Live Overview
+---
+
+## 🔗 Live Overview
 
 Users can:
-- See blog post and writer name
-- See hover effect to diff btw click
-- View in both desktop and mobile phone 
-- Clean and friendly interface 
 
-##🔗 Screenshot
-[screenshot](./assets/images/Screenshot%202026-01-09%20051816.png)
+- See blog post and writer name  
+- See hover effects to differentiate clickable elements  
+- View the page on both desktop and mobile devices  
+- Experience a clean and friendly interface  
 
-##🔗 Links
+---
 
-- Solution URL: [Github](https://github.com/OGAlex1/Blog-preview-card-solution.git)
+## 🔗 Screenshot
+
+[Screenshot](./assets/images/Screenshot%202026-01-09%20051816.png) -->
+
+---
+
+## 🔗 Links
+
+- Solution URL: [GitHub](https://github.com/OGAlex1/Blog-preview-card-solution/blob/main/README.md)
 - Live Site URL: [Vercel](https://blog-preview-card-solution-blue.vercel.app/)
 
-#🔗 Process
+---
 
-##🔗 Buit with
-- HTML
-- SASS
-- Desktop-first workflow
+## 🔗 Process
 
-##🔗 What learned
+---
 
-- How to set up styling variables
-- Understanding Min & Max width in media querries
-- working with max-width across mini large screen to extra large screen
-- Using padding and margin properties
-- Border radius properties
-- Colors
-- Using hover effect and background 
+### 🔗 Built with
 
-#🔗 Author
+- HTML  
+- SCSS (SASS)  
+- Desktop-first workflow  
 
-- Website-[Tobi O Alex](https://github.com/OGAlex1)
-- Frontend Mentor-[@OGAlex1](https://www.frontendmentor.io/profile/OGAlex1)
+---
 
+### 🔗 What I learned
 
-#🔗 Acknowledgements
+- How to set up styling variables  
+- Understanding min-width and max-width in media queries  
+- Working with max-width across small, large, and extra-large screens  
+- Using padding and margin properly  
+- Border-radius properties  
+- Colors and hover effects  
+- Background styling  
 
-- [Frontend Mentor](https://www.frontendmentor.io/home) for the project challenge
-Test update from Git 
+---
+
+## 🔗 Author
+
+- Website – [Tobi O Alex](https://github.com/OGAlex1)  
+- Frontend Mentor – [@OGAlex1](https://www.frontendmentor.io/profile/OGAlex1)
+
+---
+
+## 🔗 Acknowledgements
+
+Thanks to Frontend Mentor for providing this project challenge.
