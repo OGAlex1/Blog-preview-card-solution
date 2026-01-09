@@ -1,0 +1,121 @@
+
+//Color Varaible
+$Yellow: hsl(47, 88%, 63%);
+$White: hsl(0, 0%, 100%);
+
+$Gray-500: hsl(0, 0%, 42%);
+$Gray-950: hsl(0, 0%, 7%);
+
+//Font Variable
+$font-figtree: "Figtree", sans-serif;
+
+//font weight 
+$font-meduim:500;
+$font-large:800;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+font-family: $font-figtree;
+}
+body{
+    background-color: $Yellow;
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.blog-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   background-color: $White;
+   border-radius: 20px;
+   box-shadow: $Gray-950 10px 10px;
+   
+    width: 380px;
+    border: 2px solid $Gray-500;
+    padding: 20px;
+    #img-h{width: 100%; border-radius: 10px;}
+    p{font-size: 16px; padding: 10px 0;}
+
+
+    .text{
+        p{color:$Gray-950;}
+        h3{color: $Gray-950;}
+        padding: 20px 0;
+       .heading{font-weight: $font-large; &:hover{color: $Yellow;}} 
+       .story-text{color: $Gray-500 ;}
+       .text-bg{
+        border-radius: 5px;
+        background-color: $Yellow;
+        font-weight: $font-large;
+        width: 100px;
+        padding: (5px 10px);}
+        #pub{font-weight: $font-meduim;}
+    }
+    .avatar{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        img{width: 30px; height: 30px;}
+        p{padding: 0 10px; font-weight: $font-large; font-size: 16px;}
+    }}
+
+.container{
+     
+    .attribution { font-size: 11px; text-align: center; margin-top: 20px;  }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+//Large phone
+@media (max-width:480px){
+.container{
+
+    width:95%;
+    .blog-card{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .attribution{font-size: 10px;}
+}
+}
+
+//Very small phone
+@media (max-width:320px){
+.container{
+    width:95%;
+    height: 100vh;
+    .blog-card{
+        width: 90%;
+        height: 420px;
+        
+        margin: 0 auto;
+
+        .text{
+            padding: 10px 0;
+        }
+    }
+
+     .attribution { font-size: 8px; text-align: center; margin-top: 10px;  }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+}
+
+
